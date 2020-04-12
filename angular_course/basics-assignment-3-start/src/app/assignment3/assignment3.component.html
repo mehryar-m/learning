@@ -1,0 +1,5 @@
+<button class="btn btn-primary"
+        (click)="onButtonClick()">Display Details</button>
+
+<p *ngIf="isSecretMessageVisible">Secret Password is Toad</p>
+<p *ngFor="let click of listOfClicks">{{click}}</p>
